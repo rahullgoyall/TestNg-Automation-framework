@@ -5,8 +5,8 @@ http://<hub-machine-ip>:4444/wd/hub
 
 ## Docker command for hub:
 
-``` docker pull selenium/hub
-docker run -d -p 4444:4444 --name selenium-hub selenium/hub ```
+docker pull selenium/hub
+docker run -d -p 4444:4444 --name selenium-hub selenium/hub
 
 ## Command to grid console
 

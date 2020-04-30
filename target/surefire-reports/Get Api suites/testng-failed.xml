@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Get Api suites]" parallel="methods">
+  <test name="get">
+    <classes>
+      <class name="testcases.LoginTest"/>
+    </classes>
+  </test> <!-- get -->
+</suite> <!-- Failed suite [Get Api suites] -->

@@ -46,7 +46,7 @@ public class LocalDriverFactory {
 			}	
 		}	
 		
-		String hubUrl = "";
+		String hubUrl = "http://18.222.19.182:4444/wd/hub";
 		
 		switch (browserName) {
 		

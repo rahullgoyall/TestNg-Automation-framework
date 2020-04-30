@@ -12,7 +12,7 @@ public class Init {
 	@BeforeMethod
 	public void setUp(ITestResult result){
 		System.out.println("test started ");
-	    driver = LocalDriverFactory.createInstance("headless_chrome", "http://google.com");	
+	    driver = LocalDriverFactory.createInstance("grid_chrome", "http://google.com");	
 	}
 	
 	@AfterMethod

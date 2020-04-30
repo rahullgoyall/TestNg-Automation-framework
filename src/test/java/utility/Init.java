@@ -11,7 +11,8 @@ public class Init {
 	
 	@BeforeMethod
 	public void setUp(ITestResult result){
-	    driver = LocalDriverFactory.createInstance("chrome", "http://google.com");	
+		System.out.println("test started ");
+	    driver = LocalDriverFactory.createInstance("headless_chrome", "http://google.com");	
 	}
 	
 	@AfterMethod

@@ -9,6 +9,7 @@ public class LoginTest extends Init {
 	
 	@Test
 	public void test(){
+		System.out.println("Lgin 1 ");
 		System.out.println(driver.getTitle());
 		// driver.findElement(By.xpath("s")); 
 	}
@@ -16,6 +17,7 @@ public class LoginTest extends Init {
 	
 	@Test
 	public void test1(){
+		System.out.println("login 2");
 		System.out.println(driver.getTitle());
 		
 	}

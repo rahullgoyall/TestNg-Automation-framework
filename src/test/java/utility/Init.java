@@ -22,8 +22,7 @@ public class Init {
 
 	@BeforeMethod
 	public void setUp(ITestContext testContext){
-		System.out.println("test started ");
-	    driver = LocalDriverFactory.createInstance("grid_chrome", "http://google.com");	
+	    driver = LocalDriverFactory.createInstance("headless_chrome", "http://google.com");	
 	}
 	
 	@AfterMethod

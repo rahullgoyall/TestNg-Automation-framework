@@ -9,6 +9,7 @@ public class SignUpTest extends Init {
 	
 	@Test
 	public void Signup1(){
+		System.out.println("signup 1 ");
 		System.out.println(driver.getTitle());
 		// driver.findElement(By.xpath("s")); 
 	}
@@ -16,6 +17,7 @@ public class SignUpTest extends Init {
 	
 	@Test
 	public void Signup2(){
+		System.out.println("signup 2 ");
 		System.out.println(driver.getTitle());
 		Assert.assertTrue(false);
 	}

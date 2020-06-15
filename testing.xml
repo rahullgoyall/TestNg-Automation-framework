@@ -1,11 +1,11 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
-<suite name="Get Api suites" parallel="methods" thread-count="2">
-	<test name="login_suite">
+<suite name="Get Api suites" parallel="tests" >
+	<test  parallel="methods" name="login_suite">
 		<classes>
 			<class name="testcases.LoginTest" />
 		</classes>
 	</test>
-	<test name="signup_suite">
+	<test parallel="methods" name="signup_suite">
 		<classes>
 			<class name="testcases.SignUpTest" />
 		</classes>

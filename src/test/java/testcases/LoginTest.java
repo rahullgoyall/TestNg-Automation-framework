@@ -8,7 +8,7 @@ import utility.Init;
 public class LoginTest extends Init {
 	
 	@Test
-	public void test(){
+	public void testChange(){
 		System.out.println("Lgin 1 ");
 		System.out.println(driver.getTitle());
 		// driver.findElement(By.xpath("s")); 
